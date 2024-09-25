@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c0c; /* Latar belakang hitam */
+    color: #ffffff; /* Teks putih */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #00e0ff; /* Biru neon */
+    font-size: 36px;
+    text-shadow: 0 0 5px #00e0ff;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px #00e0ff;
+}
+
+.info {
+    max-width: 600px;
+    text-align: left;
+}
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #00e0ff; /* Biru neon */
+    color: #000000; /* Teks hitam */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 5px #00e0ff;
+}
+
+.btn:hover {
+    background-color: #00bcd4; /* Biru neon lebih gelap saat hover */
+    box-shadow: 0 0 15px #00e0ff;
+}
